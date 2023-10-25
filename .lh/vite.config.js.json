@@ -1,0 +1,26 @@
+{
+    "sourceFile": "vite.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1698182143070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1698182178940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,7 @@\n     react(),\n     // basicSsl()\n   ],\n   server: {\n-    https: true,\n+    // https: true,\n   },\n })\n"
+                },
+                {
+                    "date": 1698238047377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n // https://vitejs.dev/config/\n export default defineConfig({\n   plugins: [\n     react(),\n-    // basicSsl()\n+    basicSsl()\n   ],\n   server: {\n-    // https: true,\n+    https: true,\n   },\n })\n"
+                }
+            ],
+            "date": 1698182143070,
+            "name": "Commit-0",
+            "content": "import { defineConfig } from 'vite'\nimport react from '@vitejs/plugin-react'\nimport basicSsl from '@vitejs/plugin-basic-ssl'\n\n// https://vitejs.dev/config/\nexport default defineConfig({\n  plugins: [react(), \n    // basicSsl()\n  ],\n  server: {\n    https: true,\n  },\n})\n"
+        }
+    ]
+}
